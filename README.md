@@ -2,7 +2,7 @@
 
 The code for paper " A Lightweight Single-viewed Contrastive Learning Hypergraph Neural Network for Food-Microbe-Disease Associtaion Prediction''.
 
-![LSCHNN_model](./Figure/Workflow of LSCHNN.png) 
+![Workflow of LSCHNN](./Figure/Workflow of LSCHNN.png) 
 
 ## 1.Overview
 
