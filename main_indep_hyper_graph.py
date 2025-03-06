@@ -136,8 +136,8 @@ if __name__ == '__main__':
 
     adj_data = np.loadtxt('Data/adj.txt')
     np.random.shuffle(adj_data)
-    test_data = adj_data[:int(0.1 * len(adj_data)), :]
-    train_cv_data = adj_data[int(0.1 * len(adj_data)):, :]
+    test_data = adj_data[:int(0.2 * len(adj_data)), :]
+    train_cv_data = adj_data[int(0.2 * len(adj_data)):, :]
 
     train_data_all, train_neg_all, test_data_all = \
         neg_data_generate(adj_data, train_cv_data, test_data,args.seed)
