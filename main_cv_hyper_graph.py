@@ -168,7 +168,7 @@ if __name__ == '__main__':
     diet_input = torch.from_numpy(diet_sim).type(torch.FloatTensor)
     adj_data = np.loadtxt('Data/adj.txt')
     np.random.shuffle(adj_data)
-    cv_data = adj_data[int(0.1 * len(adj_data)):, :]
+    cv_data = adj_data[int(0.2 * len(adj_data)):, :]
     resultFileName = 'Data/cv_results.txt'
     kf = KFold(n_splits=args.k_fold, shuffle=True, random_state=args.seed)
     fold_num = 0
